@@ -1,0 +1,54 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景和容器 -->
+  <rect width="500" height="600" fill="#f5f5f5" rx="10" ry="10"/>
+  <rect x="25" y="25" width="450" height="550" fill="white" rx="10" ry="10" stroke="#ddd" stroke-width="1"/>
+
+  <!-- 标题 -->
+  <text x="250" y="65" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2c3e50">My To-Do List</text>
+
+  <!-- 输入框和按钮 -->
+  <rect x="50" y="90" width="320" height="40" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="70" y="115" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="16" fill="#888">Add a new task...</text>
+  <rect x="380" y="90" width="90" height="40" rx="5" ry="5" fill="#3498db"/>
+  <text x="425" y="115" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Add Task</text>
+
+  <!-- 过滤按钮 -->
+  <rect x="100" y="150" width="80" height="30" rx="5" ry="5" fill="#3498db"/>
+  <text x="140" y="170" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">All</text>
+  <rect x="190" y="150" width="80" height="30" rx="5" ry="5" fill="#f1f1f1"/>
+  <text x="230" y="170" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="14" text-anchor="middle" fill="#333">Active</text>
+  <rect x="280" y="150" width="100" height="30" rx="5" ry="5" fill="#f1f1f1"/>
+  <text x="330" y="170" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="14" text-anchor="middle" fill="#333">Completed</text>
+
+  <!-- 任务列表 -->
+  <rect x="50" y="200" width="400" height="320" rx="5" ry="5" fill="white" stroke="#eee" stroke-width="1"/>
+
+  <!-- 任务项 1 - 未完成 -->
+  <circle cx="70" cy="235" r="9" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="95" y="240" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="16" fill="#333">Buy groceries</text>
+  <rect x="410" y="220" width="30" height="20" rx="3" ry="3" fill="#e74c3c"/>
+  <text x="425" y="234" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">X</text>
+
+  <!-- 任务项 2 - 未完成 -->
+  <circle cx="70" cy="275" r="9" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="95" y="280" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="16" fill="#333">Finish project report</text>
+  <rect x="410" y="260" width="30" height="20" rx="3" ry="3" fill="#e74c3c"/>
+  <text x="425" y="274" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">X</text>
+
+  <!-- 任务项 3 - 已完成 -->
+  <circle cx="70" cy="315" r="9" fill="#3498db"/>
+  <path d="M65 315 L68 318 L75 310" stroke="white" stroke-width="2" fill="none"/>
+  <text x="95" y="320" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="16" fill="#888" text-decoration="line-through">Call dentist</text>
+  <rect x="410" y="300" width="30" height="20" rx="3" ry="3" fill="#e74c3c"/>
+  <text x="425" y="314" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">X</text>
+
+  <!-- 分隔线 -->
+  <line x1="50" y1="250" x2="450" y2="250" stroke="#eee" stroke-width="1"/>
+  <line x1="50" y1="290" x2="450" y2="290" stroke="#eee" stroke-width="1"/>
+  <line x1="50" y1="330" x2="450" y2="330" stroke="#eee" stroke-width="1"/>
+
+  <!-- 任务统计和清除按钮 -->
+  <line x1="50" y1="530" x2="450" y2="530" stroke="#eee" stroke-width="1"/>
+  <text x="70" y="560" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="14" fill="#666">2 tasks left</text>
+  <text x="425" y="560" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="14" text-anchor="end" fill="#666" font-weight="bold">Clear Completed</text>
+</svg>

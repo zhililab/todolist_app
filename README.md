@@ -64,7 +64,13 @@
 
 ## 截图
 
-（此处可以添加应用的截图）
+以下是应用的一些效果图：
+
+### 主界面
+![主界面](screenshots/main-interface.svg)
+
+### 已完成任务视图
+![已完成任务视图](screenshots/completed-tasks.svg)
 
 ## 贡献
 
